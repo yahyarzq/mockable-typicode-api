@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "data": {
+    "receipts": [
+      {
+        "shop_name": "Alfamart – CAWANG BARU",
+        "items": [
+          {
+            "item": "MEG KJ SBG 165G",
+            "quantity": 1,
+            "price": 13800,
+            "discount": 0,
+            "sub_price": 13800
+          }
+        ],
+        "discount": 2900,
+        "fee_amount": 1000,
+        "total_amount": 10900
+      }
+    ]
+  },
+}
