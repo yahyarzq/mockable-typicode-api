@@ -1,22 +1,53 @@
 {
-  "success": true,
-  "data": {
-    "receipts": [
-      {
-        "shop_name": "Alfamart – CAWANG BARU",
-        "items": [
-          {
-            "item": "MEG KJ SBG 165G",
-            "quantity": 1,
-            "price": 13800,
-            "discount": 0,
-            "sub_price": 13800
-          }
-        ],
-        "discount": 2900,
-        "fee_amount": 1000,
-        "total_amount": 10900
-      }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "scan": {
+    "success": true,
+    "data": {
+      "receipts": [
+        {
+          "shop_name": "Alfamart – CAWANG BARU",
+          "items": [
+            {
+              "item": "MEG KJ SBG 165G",
+              "quantity": 1,
+              "price": 13800,
+              "discount": 0,
+              "sub_price": 13800
+            }
+          ],
+          "discount": 2900,
+          "fee_amount": 1000,
+          "total_amount": 10900
+        }
+      ]
+    }
   }
 }
